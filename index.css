@@ -1,3 +1,46 @@
-#heading{
-    color : red;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    margin: 1vh;
+    padding: 1vh;
 }
+
+.logo{
+    width: 9vw;
+    height: 14vh;
+    margin-left: 1vh;
+}
+
+.nav-items > ul {
+    height: 11vh;
+    display: flex;
+    list-style-type: none;
+    width: 50vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-items > ul > li {
+    margin: 10px;
+    padding: 5px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.search{
+    margin: 1vh;
+    padding: 11px;
+}
+
+.body{
+    margin:1vh
+}
+
+.res-card{
+    width:20vw;
+    height:30vh;
+    border: 1.5px solid black;
+}
+
+
